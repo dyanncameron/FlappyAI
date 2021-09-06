@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1630883976",
+        "python_version": "3.9.6 (v3.9.6:db3ff76da1, Jun 28 2021, 11:49:53) \n[Clang 6.0 (clang-600.0.57)]",
+        "command_line_arguments": "/Library/Frameworks/Python.framework/Versions/3.9/bin/mlagents-learn config/ppo/3DBall.yaml --run-id=FlappyTest --resume",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.28.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1630883983"
+    },
+    "total": 7.023429042999999,
+    "count": 1,
+    "self": 0.009454084999999779,
+    "children": {
+        "run_training.setup": {
+            "total": 0.06255617400000002,
+            "count": 1,
+            "self": 0.06255617400000002
+        },
+        "TrainerController.start_learning": {
+            "total": 6.9514187839999995,
+            "count": 1,
+            "self": 0.00010411600000015397,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 6.9512432120000005,
+                    "count": 1,
+                    "self": 6.9512432120000005
+                },
+                "TrainerController._save_models": {
+                    "total": 7.145599999880403e-05,
+                    "count": 1,
+                    "self": 7.145599999880403e-05
+                }
+            }
+        }
+    }
+}

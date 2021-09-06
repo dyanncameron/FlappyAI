@@ -1,0 +1,47 @@
+{
+    "Flappy": {
+        "checkpoints": [
+            {
+                "steps": 499000,
+                "file_path": "results/FlappyTestRun/Flappy/Flappy-499000.onnx",
+                "reward": null,
+                "creation_time": 1630896937.9743412,
+                "auxillary_file_paths": [
+                    "results/FlappyTestRun/Flappy/Flappy-499000.pt"
+                ]
+            },
+            {
+                "steps": 999000,
+                "file_path": "results/FlappyTestRun/Flappy/Flappy-999000.onnx",
+                "reward": null,
+                "creation_time": 1630897694.266664,
+                "auxillary_file_paths": [
+                    "results/FlappyTestRun/Flappy/Flappy-999000.pt"
+                ]
+            },
+            {
+                "steps": 1001000,
+                "file_path": "results/FlappyTestRun/Flappy/Flappy-1001000.onnx",
+                "reward": null,
+                "creation_time": 1630897694.4269319,
+                "auxillary_file_paths": [
+                    "results/FlappyTestRun/Flappy/Flappy-1001000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1001000,
+            "file_path": "results/FlappyTestRun/Flappy.onnx",
+            "reward": null,
+            "creation_time": 1630897694.4269319,
+            "auxillary_file_paths": [
+                "results/FlappyTestRun/Flappy/Flappy-1001000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}
